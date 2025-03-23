@@ -9,3 +9,9 @@ str.upper() method converts all the lowercase characters in a string to uppercas
 **str.title()**
 
 The str.title() method converts the first character of each word in a string to uppercase and all other characters to lowercase. It's useful for formatting text into title case. Like other string methods, it doesn't modify the original string but returns a new one.
+**str.capitalize()**
+is a string method that returns a new string with the first character capitalized and the rest of the characters converted to lowercase.
+**str.swapcase()**
+is a string method that returns a new string with all uppercase letters converted to lowercase and all lowercase letters converted to uppercase.
+**str.find()**
+is a string method used to locate the position (index) of a substring within a string. If the substring is found, it returns the index of its first occurrence; otherwise, it returns -1.
