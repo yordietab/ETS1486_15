@@ -21,3 +21,15 @@ is a string method that returns a new string with all uppercase letters converte
 **str.find()**
 
 is a string method used to locate the position (index) of a substring within a string. If the substring is found, it returns the index of its first occurrence; otherwise, it returns -1.
+
+**str.index()**
+
+is a string method that finds the first occurrence of a specified substring within a string. It works similarly to str.find(), but the key difference is that if the substring is not found, str.index() raises a ValueError, whereas str.find() returns -1.
+
+**str.startswith()**
+
+is a string method that checks if a string starts with a specified prefix. It returns True if the string starts with the given substring and False otherwise.
+
+**str.endswith()**
+
+is a string method that checks if a string ends with a specified suffix. It returns True if the string ends with the given substring and False otherwise.
